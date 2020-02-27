@@ -6,6 +6,6 @@ Egoshots consists of real-life ego-vision images captioned using state of the ar
 for 1 month each. Egoshots images are availaible to download at "link" with corresponding captions "link".
 ## Captioning Egoshots
 Unlabelled images of the Egoshots dataset are captioned by exploiting three different image captioning models. We limit our work to theree models namely:- 
-1. ["Show, Attend and Tell: Neural Image Caption Generation with Visual Attention"](https://arxiv.org/pdf/1502.03044.pdf)
-2. ["nocaps: novel object captioning at scale"](https://arxiv.org/pdf/1812.08658.pdf)
-3. ["Decoupled Novel Object Captioner"](https://arxiv.org/pdf/1804.03803.pdf)
+1. [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf)
+2. [nocaps: novel object captioning at scale](https://arxiv.org/pdf/1812.08658.pdf)
+3. [Decoupled Novel Object Captioner](https://arxiv.org/pdf/1804.03803.pdf)
