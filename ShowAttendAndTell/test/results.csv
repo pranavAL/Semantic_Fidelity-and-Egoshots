@@ -1,0 +1,4 @@
+,image_files,caption,prob
+0,./test/images/b00000000_21i57n_20150517_212544e.jpg,a man is standing in front of a table.,8.55919332633981e-05
+1,./test/images/b00000003_21i57n_20150508_080125e.jpg,a city street filled with all of traffic.,0.0010122228870347953
+2,./test/images/b00000004_21i57n_20150524_162348e.jpg,a couple of people standing next to each other.,0.0011073168065661968
