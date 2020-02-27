@@ -19,5 +19,5 @@ python main.py --phase=test \
     --model_file='./models/289999.npy' \
     --beam_size=3
 ```
-Acknowledgement
+*Acknowledgement
 To caption the Egoshots images and to extract the pre-trained weights the maximum codes are replicated from this [repo](https://github.com/coldmanck/show-attend-and-tell)
