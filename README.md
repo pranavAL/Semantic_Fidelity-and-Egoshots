@@ -9,4 +9,4 @@ Unlabelled images of the Egoshots dataset are captioned by exploiting different 
 1. [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf)
 2. [nocaps: novel object captioning at scale](https://arxiv.org/pdf/1812.08658.pdf)
 3. [Decoupled Novel Object Captioner](https://arxiv.org/pdf/1804.03803.pdf)
-## Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
+### Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
