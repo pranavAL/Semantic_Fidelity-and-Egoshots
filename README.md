@@ -20,4 +20,4 @@ python main.py --phase=test \
     --beam_size=3
 ```
 * All the generated captions are saved in the `test` folder as `results.csv` 
-* To caption the Egoshots images and to extract the pre-trained weights most of the codes are replicated from this [repository](https://github.com/coldmanck/show-attend-and-tell).
+* To caption the Egoshots images and to extract the pre-trained weights most of the codes are built upon this [repository](https://github.com/coldmanck/show-attend-and-tell).
