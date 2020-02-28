@@ -11,7 +11,7 @@ Unlabelled images of the Egoshots dataset are captioned by exploiting different 
 3. [Decoupled Novel Object Captioner](https://arxiv.org/pdf/1804.03803.pdf)
 ### Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
     cd ShowAttendAndTell
-The images to be captioned are put in the folder `test/images`. The pretrained weigths of the network is extracted from this [link](https://app.box.com/s/xuigzzaqfbpnf76t295h109ey9po5t8p) and extracted in the current folder.
+The images to be captioned are put in the folder `test/images/`. The pretrained weigths of the network is extracted from this [link](https://app.box.com/s/xuigzzaqfbpnf76t295h109ey9po5t8p) and extracted in the current folder.
 
 The pre-trained model can be used to caption the dataset by running the following command.
 ```shell
@@ -22,3 +22,14 @@ python main.py --phase=test \
 * All the generated captions are saved in the `test` folder as `results.csv` 
 * To caption the Egoshots images and to extract the pre-trained weights the codes are built upon this [repository](https://github.com/coldmanck/show-attend-and-tell).
 ### nocaps: novel object captioning at scale
+    cd nocaps
+The image to be captioned are put in the folder `images/`. The pre-trained weights are downloaded using
+```shell
+./download_models.sh
+```
+Images are captioned by 
+```shell
+python noc_captioner.py
+```
+* The generated captions are saved in the `results` folder.
+* The code for captioning the images and pre-trained weights are built upon this [repository] (https://github.com/vsubhashini/noc)
