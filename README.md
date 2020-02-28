@@ -32,4 +32,4 @@ Images are captioned by
 python noc_captioner.py
 ```
 * The generated captions are saved in the `results` folder.
-* The code for captioning the images and pre-trained weights are built upon this [repository] (https://github.com/vsubhashini/noc)
+* The code for captioning the images and pre-trained weights are built upon this [repository] https://github.com/vsubhashini/noc)
