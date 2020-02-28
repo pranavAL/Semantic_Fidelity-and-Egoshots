@@ -1,0 +1,9 @@
+beam_size_1	images/COCO_val2014_000000050811.jpg	log_p=-12.269265, log_p_word=-1.115388	A man is sitting on a bench with a bike.
+beam_size_1	images/COCO_val2014_000000156704.jpg	log_p=-13.172359, log_p_word=-0.940883	A large group of people on a road with trees in the background.
+beam_size_1	images/COCO_val2014_000000190680.jpg	log_p=-8.102520, log_p_word=-0.810252	A man holding a wii remote in his hand.
+beam_size_1	images/COCO_val2014_000000238377.jpg	log_p=-8.078987, log_p_word=-0.807899	A man is throwing a frisbee in a park.
+beam_size_1	images/COCO_val2014_000000317479.jpg	log_p=-13.983375, log_p_word=-0.873961	A city street with a tall building and a clock on the side of it.
+beam_size_1	images/COCO_val2014_000000417023.jpg	log_p=-14.201592, log_p_word=-1.183466	A man is walking down a street with a large umbrella.
+beam_size_1	images/COCO_val2014_000000420357.jpg	log_p=-13.365265, log_p_word=-1.113772	A man is sitting on a park bench in the sun.
+beam_size_1	images/n01838598_woodpecker.jpg	log_p=-9.637886, log_p_word=-0.963789	A man is holding a frisbee in his hand.
+beam_size_1	images/n02657694_flounder.jpg	log_p=-7.115126, log_p_word=-0.646830	A group of people sitting at a table with food.

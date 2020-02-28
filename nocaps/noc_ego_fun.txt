@@ -1,0 +1,18 @@
+images/COCO_val2014_000000050811.jpg
+A man is sitting on a bench with a bike.
+images/COCO_val2014_000000156704.jpg
+A large group of people on a road with trees in the background.
+images/COCO_val2014_000000190680.jpg
+A man holding a wii remote in his hand.
+images/COCO_val2014_000000238377.jpg
+A man is throwing a frisbee in a park.
+images/COCO_val2014_000000317479.jpg
+A city street with a tall building and a clock on the side of it.
+images/COCO_val2014_000000417023.jpg
+A man is walking down a street with a large umbrella.
+images/COCO_val2014_000000420357.jpg
+A man is sitting on a park bench in the sun.
+images/n01838598_woodpecker.jpg
+A man is holding a frisbee in his hand.
+images/n02657694_flounder.jpg
+A group of people sitting at a table with food.
