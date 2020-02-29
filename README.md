@@ -53,7 +53,7 @@ python run.py --stage test
 * The code for preparing the data and captioning the images and the pre-trained weights are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner).
 ### YOLO-9000
     cd YOLO-9000
-To detect all the object classes present in each Egoshots images YOLO9000 is used. The detection is performed using this 
+To detect all the object classes present in each Egoshots images YOLO9000 is used. The detection and the pre-trained weights are extracted using this
 [repository](https://github.com/philipperemy/yolo-9000). All the images are stored in `darknet/data/EgoShots/`. To run the YOLO-9000 object detector on all the images of the Egoshots dataset the following command is run
 ```shell
 for i in data/EgoShots/*.jpg; do ./darknet detector test cfg/combine9k.data cfg/yolo9000.cfg ../yolo9000-weights/yolo9000.weights "$i" ; done > detected_object.txt
