@@ -51,6 +51,8 @@ python run.py --stage test
 ```
 * All the generated captions are saved in `dnoc_ego.txt`.
 * The code for preparing the data and captioning the images and the pre-trained weights are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner).
+## Object-Detector
+To measure the Semantic Fidelity of the given caption all the object classes present in the image also needs to be detected. The initial metric use YOLO-9000 because of its ability to detect 9000 different classes.
 ### YOLO-9000
     cd YOLO-9000
 To detect all the object classes present in each Egoshots images YOLO9000 is used. The detection and the pre-trained weights are extracted using this
