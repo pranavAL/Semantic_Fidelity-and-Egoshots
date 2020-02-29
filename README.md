@@ -52,7 +52,7 @@ python run.py --stage test
 * All the generated captions are saved in `dnoc_ego.txt`.
 * The code for preparing the data and captioning the images and the pre-trained weights are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner).
 ### YOLO-9000
-`cd YOLO-9000`
+    cd YOLO-9000
 To detect all the object classes present in each Egoshots images YOLO9000 is used. The detection is performed using this 
 [repository](https://github.com/philipperemy/yolo-9000). All the images are stored in `darknet/data/EgoShots/`. To run the YOLO-9000 object detector on all the images of the Egoshots dataset the following command is run
 ```shell
