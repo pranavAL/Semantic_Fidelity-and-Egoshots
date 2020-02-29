@@ -44,9 +44,10 @@ sh step4_transfer_coco_to_noc.sh
 python run.py
 cd ..
 ```
+The pre-trained weights of the model can be downloaded from this [link](https://drive.google.com/file/d/1NNUz7FjLDqIzQt0MCb9wnROmlmUzbPRW/view)
 The pre-processed images are captioned using
 ```shell
 python run.py --stage test
 ```
 * All the generated captions are saved in `dnoc_ego.txt`.
-* The code for preparing the data and captioning the images are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner)
+* The code for preparing the data and captioning the images and the pre-trained weights are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner)
