@@ -34,3 +34,19 @@ python noc_captioner.py
 * The generated captions are saved in the `results` folder.
 * The code for captioning the images and pre-trained weights are built upon this [repository](https://github.com/vsubhashini/noc).
 ### Decoupled Novel Object Captioner
+    cd dnoc
+The images to be captioned are put in the folder `prepare_data\mscoco\val2014\`. All the images are pre-processed using the following command.
+```shell
+cd prepare_data
+sh step2_detection.sh
+sh step3_image_feature_extraction.sh
+sh step4_transfer_coco_to_noc.sh
+python run.py
+cd ..
+```
+The pre-processed images are captioned using
+```shell
+python run.py --stage test
+```
+* The captioned images are saved as `dnoc_ego.txt`.
+* The code for preparing the data and captioning the images are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner)
