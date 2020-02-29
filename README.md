@@ -48,5 +48,5 @@ The pre-processed images are captioned using
 ```shell
 python run.py --stage test
 ```
-* The captioned images are saved as `dnoc_ego.txt`.
+* All the generated captions are saved in `dnoc_ego.txt`.
 * The code for preparing the data and captioning the images are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner)
