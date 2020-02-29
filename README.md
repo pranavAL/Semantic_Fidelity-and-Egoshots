@@ -50,4 +50,4 @@ The pre-processed images are captioned using
 python run.py --stage test
 ```
 * All the generated captions are saved in `dnoc_ego.txt`.
-* The code for preparing the data and captioning the images and the pre-trained weights are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner)
+* The code for preparing the data and captioning the images and the pre-trained weights are built upon this [repository](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner).
