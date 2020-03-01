@@ -73,6 +73,6 @@ The code calculates the Semantic Fidelity value for each captions and the final 
 To check the authenticity of the initial SF metric we comapre its performance with Human Semantic Fidelity and various 
 different forms of SFs by comapring the pearson correlation and r2 values of these forms.
 ```shell
-python SFs_plot.py.py
+python SFs_plot.py
 ```
-The code output various regression plot SFvsHSF plots with their corresponding confidence interval.
+The code outputs various regression plots for the different variants of SFs with their corresponding confidence interval.
