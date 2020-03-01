@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[42]:
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,20 +8,7 @@ import seaborn as sns
 sns.set()
 
 
-# In[43]:
-
-
 data = pd.read_csv('SF_HSF_COCO.csv')
-
-
-# In[44]:
-
-
-data.head()
-
-
-# In[91]:
-
 
 def SFvsHSF(sf,hsf,num):
     
@@ -54,44 +35,16 @@ def SFvsHSF(sf,hsf,num):
     plt.savefig('SF'+str(num)+'vsHSF.png')
     plt.show()
     
-
-
-# In[92]:
-
-
 HSF = [value for value in data['HSF']]
 SF_1 = [value for value in data['SF_1']]
 SF_2 = [value for value in data['SF_2']]
 SF_3 = [value for value in data['SF_3']]
 SF_4 = [value for value in data['SF_4']]
 
-
-# In[93]:
-
-
 SFvsHSF(SF_1,HSF,1)
-
-
-# In[94]:
-
-
 SFvsHSF(SF_2,HSF,2)
-
-
-# In[95]:
-
-
 SFvsHSF(SF_3,HSF,3)
-
-
-# In[96]:
-
-
 SFvsHSF(SF_4,HSF,4)
-
-
-# In[ ]:
-
 
 
 
