@@ -64,8 +64,15 @@ for i in data/EgoShots/*.jpg; do ./darknet detector test cfg/combine9k.data cfg/
 ## Objects and Caption Annotation
 Filter the individual CSV's into a single file for each image their corresponding captions as `Captions.csv` and for each 
 image all the object classes as `Objects.csv`.
-## Semantic Fidelity metric
+## Semantic Fidelity(SF) metric
 ```shell
 python MetaData.py
 ```
 The code calculates the Semantic Fidelity value for each captions and the final value are saved as `Meta-data.csv`.
+### SF and its variants
+To check the authenticity of the initial SF metric we comapre its performance with Human Semantic Fidelity and various 
+different forms of SFs by comapring the pearson correlation and r2 values of these forms.
+```shell
+python SFs_plot.py.py
+```
+The code output various regression plot SFvsHSF plots with their corresponding confidence interval.
