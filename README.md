@@ -61,7 +61,7 @@ To detect all the object classes present in each Egoshots images YOLO9000 is use
 for i in data/EgoShots/*.jpg; do ./darknet detector test cfg/combine9k.data cfg/yolo9000.cfg ../yolo9000-weights/yolo9000.weights "$i" ; done > detected_object.txt
 ```
 * The detected objects corresponding to each image are stored in file `detected_object.txt`
-### Objects and Caption Annotation
+## Objects and Caption Annotation
 Filter the individual CSV's into a single file for each image their corresponding captions as `Captions.csv` and for each 
 image all the object classes as `Objects.csv`.
-### Semantic Fidelity metric
+## Semantic Fidelity metric
