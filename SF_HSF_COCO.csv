@@ -1,0 +1,101 @@
+,Images,Captions,Objects,HSF,SF_1,SF_2,SF_3,SF_4
+0,1.jpg,'a dog nose to nose with a young girl.',"['girl','dog','car','box']",0.7,0.7797996078548924,0.7327887032284675,1.0,1.0
+1,2.jpg,'a person holding a burnt foot long hotdog.',"['hotdog','ketchup','burger','bear','hand']",0.45,0.09185957237718556,0.13229545102639467,0.5772195432199632,0.8150470743403806
+2,3.jpg,'a smiling man and a woman making food.',"['men','women','food','utensils','knife']",0.75,0.6385307951896373,0.6251493470251557,1.0,1.0
+3,4.jpg,'a young boy standing on top of a grass covered field.',"['boy','tree','grass','ball','gloves']",0.7,0.7918650561302596,0.7474744840101841,1.0,1.0
+4,5.jpg,'a person biting into a sandwich while sitting in an off office.',"['man','sandwich','chair','bills','monitor','speaker','office']",0.4,0.7100346104064653,0.7224466965504692,1.0,1.0
+5,6.jpg,'a cat sitting on the counter at a store.',"['banana','cats','window','sticker']",0.3,0.6002083430892792,0.5282962585215301,0.9092122063534578,1.0
+6,7.jpg,'a boat filled with lots of vegetables and produce.',"['peas','guava','boat','river']",0.35,0.17257141329791892,0.26774825055885826,1.0,1.0
+7,8.jpg,'a person on a surfboard in the water.',"['surfer','board','sea']",0.85,0.7246815485423885,0.6017320641144384,0.9662420647231846,1.0
+8,9.jpg,'a couple of people are kicking a ball in a field',"['players','shoes','football','ground']",0.85,0.6013674370140311,0.5295718421083038,0.9105287593868818,1.0
+9,10.jpg,a bus and a double decker bus on a road',"['buses','car','road','building']",0.6,0.7985162422877685,0.7135520062438651,0.9981453028597107,1.0
+10,11.jpg,'people sitting at a desk using laptop computers.',"['laptops','mugs','people','typewriter','coffee']",0.15,0.05712068940507608,0.15681218729741023,1.0,1.0
+11,12.jpg,'a man standing by the road with a suitcase and backpack.',"['man','cars','backpack','suitcase','road','trees']",0.65,0.8942309058354975,0.8704038621248027,1.0,1.0
+12,13.jpg,'a person on a court with a tennis racket.',"['men','racket','ball','ground']",0.65,0.7088178191400862,0.5967630710912589,0.8860222739251078,1.0
+13,14.jpg,'a mother helps her son brush his teeth.',"['boy','mother','brush']",1.0,0.7979602810166183,0.7004709632542705,1.0,1.0
+14,15.jpg,'a man holding an umbrella next to a frozen over fire hydrant.',"['umbrella','cars','snow', 'fire hydrant','road']",0.55,0.7245566160878043,0.6690834739723768,0.9659794204616676,1.0
+15,16.jpg,'two men playing a game of baseball on a field.',"['players','ball','ground']",0.85,0.7206741604340832,0.5964918247523358,0.9608988805787775,1.0
+16,17.jpg,'a red tour bus readies itself for departure',"['bus','people','road']",0.6,0.715508947358492,0.5897623442816995,0.9540119298113227,1.0
+17,18.jpg,'large group of people waiting for a train.',"['people','bus stop','trees']",0.35,0.49263666373080645,0.4144747185451854,0.9356406442923821,1.0
+18,19.jpg,'a young man flipping a skateboard through the air.',"['men','skateboard','road']",0.7,0.7483201205820657,0.6329825856536491,0.9977601607760875,1.0
+19,20.jpg,'the small car is towing a large airplane.',"['aeroplanes','car','road']",0.75,0.7710002681543833,0.7235922744058834,1.0,1.0
+20,21.jpg,'a group of people sitting around a restaurant table.',"['people','table','glasses']",0.7,0.6660595111653157,0.5267666081541035,0.8880793482204209,1.0
+21,22.jpg,'a baseball player swinging a bat on top of a field.',"['players','bat','ball','trees','ground']",0.8,0.8088808939388173,0.7356806070961578,0.9706570727265807,1.0
+22,23.jpg,'a girl jumps a horse over an obstacle.',"['girl','horse','ground']",0.8,0.886152239187586,0.8264227513033082,1.0,1.0
+23,24.jpg,'a woman walking with a birthday cake in her hands.',"['women','cake']",0.7,0.8815342142728269,0.8063385450468202,1.0,1.0
+24,25.jpg,'a pizza sitting on top of a metal pan.',"['pizza','plates','glass','drink','table','mobile']",0.45,0.6244334247683535,0.602788551130804,0.9132032343815116,1.0
+25,26.jpg,'the train is going down the tracks by the church.',"['train','builiding','road','forest']",0.6,0.42986761749107993,0.42986761749107993,0.9834643559148089,1.0
+26,27.jpg,'a boy posing in front of a large pizza.',"['boy','pizza']",1.0,0.9225787954829817,0.8040085228175671,1.0,1.0
+27,28.jpg,'a man taking a sip of red wine from a glass',"['man','glass','wine']",1.0,0.959586097610443,0.9242045279676199,1.0,1.0
+28,29.jpg,'two women sitting on a bench at a park.',"['women','bench','road']",0.8,0.5982144699311489,0.5277232417607912,1.0,1.0
+29,30.jpg,'people are skiing together up a snowy hill.',"['people','ski','snowy']",0.9,0.6554602856749566,0.5912628513449897,1.0,1.0
+30,31.jpg,'there is a small vintage train on the tracks',"['train','trees','track']",0.7,0.509595374801534,0.43229830801559965,0.9569918607850283,1.0
+31,32.jpg,'a boy on a skateboard skating on a half pipe',"['boy','skateboard','surface']",0.85,0.8640694592102613,0.756422704202632,1.0,1.0
+32,33.jpg,'a few people standing in sand flying a kite.',"['kite','people','ground']",0.85,0.6285970624351559,0.561269942352778,1.0,1.0
+33,34.jpg,'a man surfing in a big blue ocean',"['man','board','ocean']",0.95,0.8576139869202553,0.7848341466215768,1.0,1.0
+34,35.jpg,'one man looks at the camera while another looks away',"['men','tie','sofa','plant']",0.3,0.26596922273589196,0.26596922273589196,0.7735830602823184,1.0
+35,36.jpg,'a group of people that are posing for a picture',"['people','house','trees','bench']",0.35,0.23620358542946054,0.23620358542946054,0.7290117058156791,0.9720156077542388
+36,37.jpg,'a group of men on a field playing baseball.',"['players','ground','ball']",0.75,0.6154642512269979,0.4650493383731988,0.8206190016359971,0.9708027023494965
+37,38.jpg,'a little boy plays with a racket and ball.',"['boy','racket','sea','sand','ball','people']",0.5,0.66261444931891,0.6881141996966651,1.0,1.0
+38,39.jpg,'a man laying on a bed next to a remote.',"['man','remote','bed']",1.0,0.8237463820492167,0.7856800270087625,1.0,1.0
+39,40.jpg,'a man is looking at himself in a mirror.',"['man','mirror','brush','tree','boy']",0.5,0.678719338470024,0.7201213204007567,1.0,1.0
+40,41.jpg,'a male in a green shirt walking down the street',"['men','road','bus','trees','bag','slippers']",0.45,0.42510508839052946,0.4598142249946188,0.869334446206373,1.0
+41,42.jpg,'a baseball player holding a bat on a field',"['players','bat','ground']",0.8,0.8850303709318474,0.7918699332455947,1.0,1.0
+42,43.jpg,'a large fire hydrant on a truck',"['train','people','road','trees']",0.7,0.46694694122846403,0.38599743486127946,0.7531637129522311,0.9414546411902889
+43,44.jpg,'a man in a red jacket is on snow skis.',"['ski','snow','man','montain','hill']",0.75,0.5468242184870157,0.531460008604323,0.9282124327129195,1.0
+44,45.jpg,'a little girl looking at a pink cake',"['girl','cake']",1.0,1.0,1.0,1.0,1.0
+45,46.jpg,'a large blue train on a steel track.',"['train','track']",1.0,0.8884277133484068,0.7259630746115633,0.9866297523068486,1.0
+46,47.jpg,'a woman in a jacket holds food up.',"['women','trees','food']",0.7,0.7443174556335926,0.6276503404909239,0.9924232741781235,1.0
+47,48.jpg,'a man drives a train down a track.',"['train','track','driver']",1.0,0.8514641287563665,0.775975274771237,1.0,1.0
+48,49.jpg,'a large boat near a small boat in the ocean.',"['boats','people','oceans']",0.85,0.785906343551112,0.6838535317236984,1.0,1.0
+49,50.jpg,'a tall man and a short woman posing for a picture.',"['men','woomen','chairs']",0.7,0.5279587208902349,0.36512618953619536,0.7039449611869798,0.8327758305172225
+50,51.jpg,'a city street filled with lots of traffic.',"['road','building','flag','cars']",0.5,0.6391884449477823,0.5715261999740172,0.9531481803711725,1.0
+51,52.jpg,'a woman is holding a baby up to something',"['woman','children','man']",0.5,0.8504586430569923,0.7745303758350286,1.0,1.0
+52,53.jpg,'a guy trying to fly a kite outside',"['man','kite','tree','ground']",0.5,0.3848451732958193,0.3848451732958193,0.9305383602601203,1.0
+53,54.jpg,'a person that is playing in a baseball game.',"['players','ground']",0.9,0.7594187858947858,0.5447654381207593,0.8823903315764983,0.9737648422379677
+54,55.jpg,'a car parked on a sidewalk next to a street.',"['cars','street','house','lamp post','lady']",0.5,0.6540221171006712,0.6410411236055839,1.0,1.0
+55,56.jpg,'a man in a wet suit in windsurfing on water.',"['man','suit','water']",1.0,1.0,1.0,1.0,1.0
+56,57.jpg,'a group of three men sitting on a couch using laptop computers.',"['men','laptop','couch','oven','computers']",0.45,0.0006883211510919818,0.008982048955692063,0.4662171215221482,0.754355148759976
+57,58.jpg,'a person in a field of grass with a frisbee',"['people','frisbee','ground','trees']",0.55,0.8072906593731182,0.7253454504136897,1.0,1.0
+58,59.jpg,'a man holding a white and black umbrella in a large parking lot.',"['cars','umbrella','man','roads']",0.5,0.8103833813091127,0.7295176260046503,1.0,1.0
+59,60.jpg,'two kids are standing on skis on a snowy path.',"['kids','snowy','skis']",1.0,0.02350005037470994,0.03285179169062168,0.572865840930291,0.7825492916711129
+60,61.jpg,'a inflated fire hydrant standing next to cars.',"['women','dog','car','tree']",0.1,0.20364115970499072,0.20364115970499072,0.6768992608477491,0.9025323477969989
+61,62.jpg,'an asian man in a tuxedo playing wii',"['man','women','table','wii']",0.7,0.7520597607185214,0.7003504954701872,1.0,1.0
+62,63.jpg,'a man is walking while pulling a wagon',"['man','wagon','cars','bush','trees']",0.3,0.5931605046217487,0.6424338648710027,1.0,1.0
+63,64.jpg,'a little girl holding a teddy bear in a field',"['girl','teddy bear','bush']",0.9,0.5152239434176613,0.4382462340616344,0.9640257118120216,1.0
+64,65.jpg,'a man and women riding a moto cylce down a high way.',"['men','women','motorcycle','road']",0.85,0.6228569333247319,0.5533314803199723,0.934824237522991,1.0
+65,66.jpg,'a person is riding a snowboard in the snow.',"['man','ski','snow']",1.0,0.8837630941921016,0.8229109793305739,1.0,1.0
+66,67.jpg,'a man looking at another man in the water.',"['men','river','building']",0.65,0.7181530455720474,0.5932037074303987,0.9575373940960632,1.0
+67,68.jpg,'a couple of people are eating at a table',"['people','food','table','chair','umbrella']",0.35,0.48932112084890306,0.5457827237616046,1.0,1.0
+68,69.jpg,'the front of a crane is lifted off the ground.',"['truck','car','building','road']",0.6,0.5713203361195295,0.4967062260668182,0.8761904168812065,1.0
+69,70.jpg,'a woman is in action on the tennis court.',"['woman','racket','ground']",0.7,0.7849940541733145,0.6296843387481564,0.9051735104612764,1.0
+70,71.jpg,'a large white truck on a grass field.',"['bus','cars','tent','field']",0.5,0.687387148569175,0.6258954008961455,1.0,1.0
+71,72.jpg,'a man is home napping on the couch',"['man','cat','sofa']",0.8,0.8244017348629656,0.7864576978210062,1.0,1.0
+72,73.jpg,'two men who are standing in the snow.',"['people','ski','snow','building']",0.5,0.3736876374407884,0.4779489896451635,1.0,1.0
+73,74.jpg,'a woman holding an umbrella in her hand.',"['women','umbrella','grass','road']",0.65,0.6754981881801376,0.6123930250966315,0.9934748514651961,1.0
+74,75.jpg,'a woman with red hair sits at a table in front of a cake.',"['women','people','cake','knife','wine','chair']",0.2,0.7914113954339576,0.7479251923877427,0.9874531407386776,1.0
+75,76.jpg,'three double-decker buses are parked in a field.',"['buses','trees','ground']",0.55,0.27333372686063817,0.19917591879957,0.631761865881707,0.7859224605850151
+76,77.jpg,'a close up of a person holding a slice of pizza',"['pizza','person']",1.0,0.9480469635420614,0.8889165832786632,1.0,1.0
+77,78.jpg,'a man with dark shades takes a picture on his phone.',"['man','mobile','watch','people']",0.6,0.7425754960694869,0.6893277586753688,1.0,1.0
+78,79.jpg,'a woman in a suit and tie in a bedroom',"['women','tie','bed']",0.8,0.8776139027310605,0.7792394239492022,1.0,1.0
+79,80.jpg,'a man riding a bike down a sidewalk in front of a girl flying a kite.',"['women','kite','bike','ground','house','tree']",0.75,0.8510698389523221,0.7968445605600762,0.9929148121110426,1.0
+80,81.jpg,'a person sitting at a table with some food.',"['person','food','glass','menu']",0.75,0.8343649333010267,0.7974345608663628,1.0,1.0
+81,82.jpg,'a group of girls playing soccer outside on a sunny day.',"['girls','field','balls','trees']",0.8,0.5089382598314001,0.42986429700002404,0.803410608504042,1.0
+82,83.jpg,'photo of an outside place that is incredibly dazzling.',"['people','road','building']",0.1,0.3617840242783207,0.282295241325803,0.7615951725884725,0.9474372929664558
+83,84.jpg,'a tennis player is looking up to the sky.',"['player','people','racquet']",0.75,0.7466595355046878,0.630768393885642,0.9955460473395836,1.0
+84,85.jpg,"'a man, woman and their dog ride a boat along a river next to a forest.'","['man','woman','boat','lake','forest']",1.0,0.9631944025174082,0.9400985809823182,1.0,1.0
+85,86.jpg,'a motorcycle parked in front of an outdoor area.',"['bike','trees','women']",0.65,0.6472759970891099,0.5035260870767618,0.8630346627854798,1.0
+86,87.jpg,'the girraffs are walking past the palm trees.',"['giraffe','trees']",1.0,0.2340183806730339,0.173227708862698,0.9675089264147053,1.0
+87,88.jpg,'a person with a plate of food on the table',"['man','food','table']",1.0,0.9053409406727054,0.8269546671407253,1.0,1.0
+88,89.jpg,'a group of older men play a game outdoors.',"['people','bench','building','trees']",0.45,0.2040521170531115,0.2040521170531115,0.6775819237328434,0.9034425649771246
+89,90.jpg,'a man seated on a chair holding a laptop',"['man','laptop','table','chair']",0.75,0.9377165394784926,0.922761508255723,1.0,1.0
+90,91.jpg,'a dirt bike that is sitting in the grass.',"['bike','lady','bush','cars']",0.65,0.6707991095057652,0.6070725513011922,0.988287027306734,1.0
+91,92.jpg,'many boats tied to the edge of the bank.',"['boats','lakes','tress']",0.5,0.21274788451204793,0.14583205247776984,0.5345661145480527,0.6650092998326724
+92,93.jpg,'a blue two story bus on a highway.',"['buses','cars','building','roads']",0.55,0.6721291105909365,0.6085774861400813,0.989756279394094,1.0
+93,94.jpg,'a man is going down a hill on a snowboard',"['man','ski','snow','trees']",0.85,0.7510707582712708,0.6991994325933582,1.0,1.0
+94,95.jpg,'a person that is wearing glasses and a tie.',"['person','glass','tie','door']",0.9,0.6005323198942044,0.6005323198942044,1.0,1.0
+95,96.jpg,'a pair of men in coat and tie shaking hands',"['men','flag']",0.45,0.4471226858626497,0.25307022913262434,0.6706840287939746,0.7632861690584717
+96,97.jpg,'a person is skiing down a snow covered path.',"['person','ski','snow','trees']",0.75,0.7940818162864957,0.7496034281017391,1.0,1.0
+97,98.jpg,'a group of people that are sitting at a table.',"['people','table','glass','bowl','spoon']",0.5,0.27805031083720066,0.33810669793862036,0.8989605074795357,1.0
+98,99.jpg,'some players in action on the baseball field.',"['players','bat','ground','people']",0.9,0.5704713011603146,0.49578370818355166,0.8752136602467978,1.0
+99,100.jpg,'a surfer in blue trunks is surfing on a white board',"['surfer','board','water']",1.0,0.8159516765641522,0.7764420833559462,1.0,1.0
