@@ -45,8 +45,8 @@ def Semantic_Fidelity(cosine, countNouns, countObjects):
     
     metric1 = cosine ** (countObjects / countNouns)
     metric2 = cosine ** ((countObjects / countNouns)/countObjects**(0.5)+1)
-    metric3 = cosine * ((countObjects / countNouns)/countObjects+1)
-    metric4 = cosine * ((countObjects / countNouns)/countObjects**(0.5)+1)
+    metric3 = cosine * ((countNouns / countObjects)/countObjects+1)
+    metric4 = cosine * ((countNouns / countObjects)/countObjects**(0.5)+1)
     
     return metric1, metric2, metric3, metric4
     
