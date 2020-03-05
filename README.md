@@ -48,6 +48,7 @@ python noc_captioner.py
     cd dnoc
 The images to be captioned are put in the folder `prepare_data\mscoco\val2014\`. All the images are pre-processed using the following command.
 ```shell
+conda activate myenv
 cd prepare_data
 sh step2_detection.sh
 sh step3_image_feature_extraction.sh
