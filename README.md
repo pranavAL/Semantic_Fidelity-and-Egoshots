@@ -23,7 +23,7 @@ python main.py --phase=test \
 * To caption the Egoshots images and to extract the pre-trained weights the codes are built upon this [repository](https://github.com/coldmanck/show-attend-and-tell).
 ### nocaps: novel object captioning at scale
     cd nocaps
-To prevent version mismatch or conflicting libraries a separate virtual environment for each caption model is used.
+To prevent version mismatch or conflicting libraries a separate virtual environment is used. Gpu version of Tensorflow and Caffe conflict.
 ```shell
 conda create -n caffe
 conda activate caffe
