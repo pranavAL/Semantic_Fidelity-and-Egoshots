@@ -11,6 +11,11 @@ Unlabelled images of the Egoshots dataset are captioned by exploiting different 
 3. [Decoupled Novel Object Captioner](https://arxiv.org/pdf/1804.03803.pdf)
 ### Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
     cd ShowAttendAndTell
+```shell
+conda create -n myenv
+conda activate myenv
+pip install -r requirements.txt
+```
 The images to be captioned are put in the folder `test/images/`. The pretrained weigths of the network is extracted from this [link](https://app.box.com/s/xuigzzaqfbpnf76t295h109ey9po5t8p) and extracted in the current folder.
 
 The pre-trained model can be used to caption the dataset by running the following command.
