@@ -23,6 +23,12 @@ python main.py --phase=test \
 * To caption the Egoshots images and to extract the pre-trained weights the codes are built upon this [repository](https://github.com/coldmanck/show-attend-and-tell).
 ### nocaps: novel object captioning at scale
     cd nocaps
+To prevent version mismatch or conflicting libraries a separate virtual environment for each caption model is used.
+```shell
+conda create -n caffe
+conda activate caffe
+pip install -r requirements.txt
+```
 The image to be captioned are put in the folder `images/`. The pre-trained weights are downloaded using
 ```shell
 ./download_models.sh
