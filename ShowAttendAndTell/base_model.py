@@ -150,8 +150,7 @@ class BaseModel(object):
 
         # Save the captions to a file
         results = pd.DataFrame({'image_files':test_data.image_files,
-                                'caption':captions,
-                                'prob':scores})
+                                'caption':captions})
         results.to_csv(config.test_result_file)
         print("Testing complete.")
 
