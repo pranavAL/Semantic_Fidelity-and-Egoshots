@@ -77,11 +77,12 @@ for i in data/EgoShots/*.jpg; do ./darknet detector test cfg/combine9k.data cfg/
 Filter the individual CSV's into a single file for each image their corresponding captions as `Captions.csv` and for each 
 image all the object classes as `Objects.csv`.
 ```shell
+python caption_annotation.py
 python YOLO-9000/darknet/object_detector_annotation.py
 ```
 ## Semantic Fidelity(SF) metric
 ```shell
-python MetaData.py
+python metrics.py
 ```
 The code calculates the Semantic Fidelity value for each captions and the final value are saved as `Meta-data.csv`.
 ### SF and its variants
