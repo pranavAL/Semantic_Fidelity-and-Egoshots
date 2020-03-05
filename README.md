@@ -76,6 +76,9 @@ for i in data/EgoShots/*.jpg; do ./darknet detector test cfg/combine9k.data cfg/
 ## Objects and Caption Annotation
 Filter the individual CSV's into a single file for each image their corresponding captions as `Captions.csv` and for each 
 image all the object classes as `Objects.csv`.
+```shell
+python YOLO-9000/darknet/object_detector_annotation.py
+```
 ## Semantic Fidelity(SF) metric
 ```shell
 python MetaData.py
