@@ -106,7 +106,7 @@ python SFs_plot.py
 ```
 The code outputs various regression plots for the different variants of SFs with their corresponding confidence interval.
 ##  Final Caption
-The Semantic Fidelity as calculated is used to output the top 3 captions for the given image as 
+The Semantic Fidelity as calculated is used to output the final captions(in the order highest to lowest SF) for the given image as 
 ```shell
 python final_caption.py --image ****.jpg
 ```
