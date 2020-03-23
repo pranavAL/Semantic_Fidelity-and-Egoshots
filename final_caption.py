@@ -17,9 +17,9 @@ DNOC = captions['Decoupled Novel Object Captioner'][index_to_image]
 
 index_to_metric = list(metrics.index[metrics['Images']==test_image])[0]
 
-SAT_SF = metrics['SF_1_SAT'][index_to_metric]
-NOC_SF = metrics['SF_1_NOC'][index_to_metric]
-DNOC_SF = metrics['SF_1_DNOC'][index_to_metric]
+SAT_SF = metrics['SF_11_SAT'][index_to_metric]
+NOC_SF = metrics['SF_11_NOC'][index_to_metric]
+DNOC_SF = metrics['SF_11_DNOC'][index_to_metric]
 
 captions = [SAT,NOC,DNOC]
 SF = [SAT_SF,NOC_SF,DNOC_SF]
