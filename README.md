@@ -22,7 +22,7 @@ Unlabelled images of the Egoshots dataset are captioned by exploiting different 
 3. [Decoupled Novel Object Captioner](https://arxiv.org/pdf/1804.03803.pdf)
 
 ### Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
-    cd ShowAttendAndTell
+    cd image-captioning/ShowAttendAndTell
 ```shell
 conda create -n myenv
 conda activate myenv
@@ -40,7 +40,7 @@ python main.py --phase=test \
 * All the generated captions are saved in the `test` folder as `results.csv` 
 * To caption the Egoshots images and to extract the pre-trained weights the codes are built upon this [repository](https://github.com/coldmanck/show-attend-and-tell).
 ### nocaps: novel object captioning at scale
-    cd nocaps
+    cd image-captioning/nocaps
 To prevent version mismatch (such as GPU Tensorflow version and Caffe conflict) a separate virtual environment is used:
 ```shell
 conda create -n caffe
@@ -59,7 +59,7 @@ python noc_captioner.py
 * The generated captions are saved in the `results` folder.
 * The code for captioning the images and pre-trained weights are built upon this [repository](https://github.com/vsubhashini/noc).
 ### Decoupled Novel Object Captioner
-    cd dnoc
+    cd image-captioning/dnoc
 The images to be captioned are put in the folder `prepare_data\mscoco\val2014\`. All the images are pre-processed using the following command:
 ```shell
 conda activate myenv
@@ -80,7 +80,7 @@ python run.py --stage test
 ## Object-Detector
 To measure the Semantic Fidelity of the given caption all the object classes present in the image also need to be detected. The initial metric uses YOLO-9000 because of its ability to detect 9000 different classes.
 ### YOLO-9000
-    cd YOLO-9000
+    cd image-captioning/YOLO-9000
 To detect all the object classes present in each Egoshots images YOLO9000 is used. The detection and the pre-trained weights are extracted using this
 [repository](https://github.com/philipperemy/yolo-9000). All images are stored in `darknet/data/EgoShots/`. To run the YOLO-9000 object detector on all the images of the Egoshots dataset, run:
 ```shell
@@ -92,7 +92,7 @@ Filter the individual CSV's into a single file for each image their correspondin
 image all the object classes as `Objects.csv`.
 ```shell
 python caption_annotation.py
-python YOLO-9000/darknet/object_detector_annotation.py
+python image-captioning/YOLO-9000/darknet/object_detector_annotation.py
 ```
 ## Semantic Fidelity(SF) metric computation
 ```shell
@@ -110,3 +110,5 @@ The Semantic Fidelity as calculated is used to output the final captions(in the 
 ```shell
 python final_caption.py --image ****.jpg
 ```
+##  Acknowledgement
+We thank the work by [Meng-Jiun Chiou](https://github.com/coldmanck/show-attend-and-tell), [vsubhashini](https://github.com/vsubhashini/noc), [Yu-Wu](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner) and [Philippe Rémy](https://github.com/philipperemy/yolo-9000) for releasing the pretrained weights of the image captioning and object detector models which helped in labelling the Egoshots dataset. 
