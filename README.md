@@ -101,10 +101,8 @@ python metrics.py
 The code calculates the Semantic Fidelity value for each captions and the final value are saved as `Meta-data.csv`.
 ### SF and its variants
 To check the authenticity of the initial SF metric we compare its similarity with manually annotated images through the use of the Human Semantic Fidelity metric (and various different forms of SFs by comparing the Pearson correlation coef. rho and coef. of determination R^2 values):
-```shell
-python SFs_plot.py
-```
-The code outputs various regression plots for the different variants of SFs with their corresponding confidence interval.
+
+The notebook `SFs_plot.ipynb` compares various regression plots for the different variants of SFs with their corresponding confidence interval.
 ##  Final Caption
 The Semantic Fidelity as calculated is used to output the final captions(in the order highest to lowest SF) for the given image as 
 ```shell
