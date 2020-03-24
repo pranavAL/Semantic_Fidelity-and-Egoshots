@@ -110,3 +110,5 @@ The Semantic Fidelity as calculated is used to output the final captions(in the 
 ```shell
 python final_caption.py --image ****.jpg
 ```
+##  Acknowledgement
+We thank the work by [Meng-Jiun Chiou](https://github.com/coldmanck/show-attend-and-tell), [vsubhashini](https://github.com/vsubhashini/noc), [Yu-Wu](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner) and [Philippe Rémy](https://github.com/philipperemy/yolo-9000) for releasing the pretrained weights of the image captioning and object detector models which helped in labelling the Egoshots dataset. 
