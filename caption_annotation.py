@@ -1,9 +1,9 @@
 import pandas as pd
 
-file1 = pd.read_csv('ShowAttendAndTell/test/results.csv')
+file1 = pd.read_csv('image-captioning/ShowAttendAndTell/test/results.csv')
 file1 = file1[['image_files','caption']]
 
-file2 = pd.read_csv('dnoc/dnoc_ego.txt',header=None)
+file2 = pd.read_csv('image-captioning/dnoc/dnoc_ego.txt',header=None)
 
 row = []
 caption = []
@@ -18,7 +18,7 @@ caption2 = pd.DataFrame(row, columns=['image_files'])
 
 caption2['caption']= caption
 
-file3 = pd.read_csv('nocaps/results/output.imgnetcoco_3loss_voc72klabel_inglove_prelm75k_sgd_lr4e5_iter_80000.caffemodel.h5_beam_size_1.txt',header=None)
+file3 = pd.read_csv('image-captioning/nocaps/results/output.imgnetcoco_3loss_voc72klabel_inglove_prelm75k_sgd_lr4e5_iter_80000.caffemodel.h5_beam_size_1.txt',header=None)
 
 row = []
 caption = []
