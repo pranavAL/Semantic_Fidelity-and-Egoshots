@@ -28,4 +28,4 @@ final_index = sorted(range(len(SF)), key=lambda i:SF[i], reverse=True)
 
 print('TOP-3 Captions for the image - ',test_image,'\n')
 for i,index in enumerate(final_index):
-    print(str(i+1)+'.\t',captions[index],'\n')
+    print(str(i+1)+'.\t',captions[index],'\t','SF = ',round(SF[index],2),'\n')
