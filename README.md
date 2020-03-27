@@ -11,8 +11,8 @@ Egoshots consists of real-life ego-vision images captioned using state of the ar
 
 Images are taken automatically by the Autoographer wearable camera when events of interest are detected autonomously.
 
-Egoshots Dataset images are availaible for Download at [link](https://drive.google.com/open?id=1gwg1LhjsqZZpCGJBQihb32E1Y2GCZ-Xr) with corresponding captions from this [link](https://drive.google.com/open?id=1fHt1GLRsIUNdwvovSINU_CqLMRT6ZTl4).
-A repo is also found in https://github.com/NataliaDiaz/Egoshots
+Egoshots Dataset images are availaible at [Egoshots](https://github.com/NataliaDiaz/Egoshots) repo with corresponding (transfer learning pre-trained) captions [here](https://drive.google.com/open?id=1fHt1GLRsIUNdwvovSINU_CqLMRT6ZTl4).
+
 
 ## Captioning Egoshots
 
