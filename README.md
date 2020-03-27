@@ -111,3 +111,19 @@ python final_caption.py --image ****.jpg
 ```
 ##  Acknowledgement
 We thank the work by [Meng-Jiun Chiou](https://github.com/coldmanck/show-attend-and-tell), [vsubhashini](https://github.com/vsubhashini/noc), [Yu-Wu](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner) and [Philippe Rémy](https://github.com/philipperemy/yolo-9000) for releasing the pretrained weights of the image captioning and object detector models which helped in labelling the Egoshots dataset. 
+
+## Paper associated
+
+If you use it, please cite:
+
+Egoshots, an ego-vision life-logging dataset and semantic fidelity metric to evaluate diversity in image captioning models Pranav Agarwal, Alejandro Betancourt, Vana Panagiotou, Natalia Díaz-Rodríguez. Machine Learning in Real Life (ML-IRL) ICLR 2020 Workshop https://arxiv.org/abs/2003.11743
+
+```
+@InProceedings{Agarwal20egoshots,
+    author={Pranav Agarwal and Alejandro Betancourt and Vana Panagiotou and Natalia Díaz-Rodríguez},
+    year={2020},
+    month = {Mar},
+    booktitle = {Machine Learning in Real Life (ML-IRL) Workshop at the International Conference on Learning Representations  (ICLR)},
+    url={https://arxiv.org/abs/2003.11743}
+}
+```
