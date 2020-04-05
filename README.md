@@ -1,6 +1,6 @@
 Egoshots dataset and Semantic Fidelity metric
 =====
-This repo contains code for our paper 
+This repo contains code for our [paper](https://arxiv.org/abs/2003.11743) 
 
 Egoshots, an ego-vision life-logging dataset and semantic fidelity metric to evaluate diversity in image captioning models
 accepted at the MACHINE LEARNING IN REAL LIFE (ML-IRL) ICLR 2020 workshop.
